@@ -74,29 +74,33 @@ body {
 }
 
 .navigation {
-	margin-bottom: 1%;
+	background-color: gray;
+	z-index: 10;
+	width: 90%;
+	position: fixed;
+	top: 0;
 }
 
 nav {
 	display: inline-block;
 	width: 75%;
-	vertical-align: 63%;
+	vertical-align: 151%;
 	margin-right: 4%;
 }
 
 nav a {
-	color: grey;
+	color: white;
 	text-decoration: none;
 	margin: 0 4%;
 	display: inline-block;
 }
 
 .logo {
-	margin-top: 3%;
+	margin: 1.5% 1% 1.5% 0;
 }
 
 header {
-	margin: 6.5% 0;
+	margin: 12.5% 0;
 }
 
 .title {
